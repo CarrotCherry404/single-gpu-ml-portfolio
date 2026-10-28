@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-10-28T23:18:49.523910+00:00",
+  "device_requested": "cuda",
+  "torch_version": "2.10.0+cu128",
+  "sklearn_version": "1.8.0",
+  "numpy_version": "2.3.5",
+  "python": "3.13.16",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+  "cpu_count": 2,
+  "cuda_available": true,
+  "gpu_name": "Tesla T4",
+  "threads": 1,
+  "n_train": 1347,
+  "n_test": 450,
+  "dataset": "sklearn.load_digits",
+  "test_fraction": 0.25,
+  "split_seed": 2026,
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "epochs": 30,
+  "warmups": 30,
+  "timed_trials": 120,
+  "batch_size": 1,
+  "label": "OBSERVED; no estimated measurements"
+}

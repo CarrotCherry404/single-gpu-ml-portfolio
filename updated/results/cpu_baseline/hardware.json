@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-10-28T22:28:46.531228+00:00",
+  "device_requested": "cpu",
+  "torch_version": "2.10.0+cpu",
+  "sklearn_version": "1.8.0",
+  "numpy_version": "2.3.5",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "cpu_count": 5,
+  "cuda_available": false,
+  "gpu_name": null,
+  "threads": 1,
+  "n_train": 1347,
+  "n_test": 450,
+  "dataset": "sklearn.load_digits",
+  "test_fraction": 0.25,
+  "split_seed": 2026,
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "epochs": 30,
+  "warmups": 30,
+  "timed_trials": 120,
+  "batch_size": 1,
+  "label": "OBSERVED; no estimated measurements"
+}
